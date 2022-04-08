@@ -1,15 +1,17 @@
 import {DisplayText} from '@shopify/polaris'
-
+import './Header.css'
 
 function Header(props) {
 
     const { title, productCount, categoryCount } = props
 
     return (
-        <div className="Header">
-            <DisplayText size="extraLarge" id="site-title">{props.title}</DisplayText>
-            <p> Product Count : {props.productCount} </p>
-            <p> Category Count: {props.categoryCount} </p>
+        <div className="header">
+            <div className="title">
+                <DisplayText size="extraLarge" element="h1">{title}</DisplayText>
+            </div>
+            <p> Product Count : {productCount} </p>
+            <p> Category Count: {categoryCount} </p>
         </div>
     )
 }

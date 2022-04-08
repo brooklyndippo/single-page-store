@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import { inventory } from "../data";
 import {Card, Badge} from '@shopify/polaris';
 import StarRatingComponent from 'react-star-rating-component';
+import './ProductList.css'
+
 
 
 function ProductList(props) {

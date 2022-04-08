@@ -12,14 +12,3 @@ code {
     monospace;
 }
 
-#product-results{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: minmax(100px, auto);
-  margin:50px;
-}
-
-.Polaris-Card {
-  margin: 10px;
-}
-
